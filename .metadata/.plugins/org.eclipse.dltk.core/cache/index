@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="30" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="D:/Job/Crank/coffee_app/scripts/csv.lua" timestamp="1683837805789" lastAccessTime="1684371124109">
+    <attributes name="indexed" location="2838196607/2136844792/7.idx"/>
+  </entries>
+  <entries path="D:/Job/Crank/coffee_app/scripts" timestamp="1684012744933" lastAccessTime="1684376569500">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2971499710/13.idx"/>
+  </entries>
+  <entries path="D:/Job/Crank/coffee_app/scripts/coffee_app_events.lua" timestamp="1683944961297" lastAccessTime="1684371124110">
+    <attributes name="indexed" location="2838196607/2136844792/15.idx"/>
+  </entries>
+  <entries path="D:/Job/Ametek/Crank(lang)/coffee_app/scripts/coffee_app_events.lua" timestamp="1683944961297" lastAccessTime="1686101376262">
+    <attributes name="indexed" location="2838196607/3275528615/25.idx"/>
+  </entries>
+  <entries path="D:/Job/Ametek/Crank(lang)/coffee_app/scripts" timestamp="1684378009278" lastAccessTime="1686100933169">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/1445469673/21.idx"/>
+  </entries>
+  <entries path="D:/Job/Ametek/Crank(lang)/coffee_app/scripts/csv.lua" timestamp="1683837805789" lastAccessTime="1686101376262">
+    <attributes name="indexed" location="2838196607/3275528615/23.idx"/>
+  </entries>
+  <entries path="D:/Job/Ametek/Crank(lang)/coffee_app/scripts/callbacks.lua" timestamp="1684377603416" lastAccessTime="1686101376262">
+    <attributes name="indexed" location="2838196607/3275528615/29.idx"/>
+  </entries>
+</cache:CacheIndex>

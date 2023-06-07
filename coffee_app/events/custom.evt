@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event format="1u1 status" name="brewStatus" type="0x40">
+    <description>receive a message from the backend about the brew status(including finish, errors, warnings, etc)</description>
+    <field name="status">
+      <attr f="i" k="sb.max_value">127</attr>
+      <attr f="i" k="sb.min_value">-128</attr>
+    </field>
+  </event>
+  <event name="gre.animate.complete.brew" type="0x8">
+    <label>brew animation complete</label>
+    <description>The animation named brew has completed</description>
+  </event>
+  <event name="gre.animate.complete.hidelangopt" type="0x8">
+    <label>hidelangopt animation complete</label>
+    <description>The animation named hidelangopt has completed</description>
+  </event>
+  <event name="gre.animate.complete.showlangopt" type="0x8">
+    <label>showlangopt animation complete</label>
+    <description>The animation named showlangopt has completed</description>
+  </event>
+  <event name="gre.animate.complete.showStatus" type="0x8">
+    <label>showStatus animation complete</label>
+    <description>The animation named showStatus has completed</description>
+  </event>
+  <event name="gre.animate.stop.brew" type="0x8">
+    <label>brew animation stopped</label>
+    <description>The animation named brew has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.hidelangopt" type="0x8">
+    <label>hidelangopt animation stopped</label>
+    <description>The animation named hidelangopt has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.showlangopt" type="0x8">
+    <label>showlangopt animation stopped</label>
+    <description>The animation named showlangopt has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.showStatus" type="0x8">
+    <label>showStatus animation stopped</label>
+    <description>The animation named showStatus has been stopped</description>
+  </event>
+  <event format="1u1 volume 1u1 sizename" name="startBrewing" type="0x20">
+    <description>send the information about sizes and volumes and give backend a command to start brewing</description>
+    <field name="sizename">
+      <attr f="i" k="sb.max_value">3</attr>
+      <attr f="i" k="sb.min_value">1</attr>
+    </field>
+    <field name="volume"/>
+  </event>
+  <event name="timer.rest" type="0x8">
+    <description>The timer named timer.rest has fired</description>
+  </event>
+  <event name="timer.wait" type="0x8">
+    <description>The timer named timer.wait has fired</description>
+  </event>
+</eventdefinitions>

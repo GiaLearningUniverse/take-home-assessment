@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.crank.gdt.simulator.launching.GRELaunch">
+    <stringAttribute key="gre.channel.name" value="coffeeApp_frontend"/>
+    <stringAttribute key="gre.gde.file" value="coffee_app.gde"/>
+    <stringAttribute key="gre.location" value="D:\Crank\Storyboard_Engine\8.0-stable.202304090148\windows-x86_64-opengles_2.0-obj"/>
+    <stringAttribute key="gre.options" value=""/>
+    <listAttribute key="gre.plugin.list"/>
+    <listAttribute key="gre.plugin.not.selected.list"/>
+    <mapAttribute key="gre.plugin.options">
+        <mapEntry key="libgre-plugin-capture-playback.dll" value=""/>
+        <mapEntry key="libgre-plugin-gesture.dll" value=""/>
+        <mapEntry key="libgre-plugin-greio.dll" value="-ogreio,channel=coffeeApp_frontend"/>
+        <mapEntry key="libgre-plugin-js.dll" value=""/>
+        <mapEntry key="libgre-plugin-logger.dll" value=""/>
+        <mapEntry key="libgre-plugin-lua.dll" value=""/>
+    </mapAttribute>
+    <stringAttribute key="gre.post.config" value="None"/>
+    <stringAttribute key="gre.pre.config" value="None"/>
+    <stringAttribute key="gre.sb.project" value="coffee_app"/>
+    <intAttribute key="gre.verbosity" value="1"/>
+</launchConfiguration>

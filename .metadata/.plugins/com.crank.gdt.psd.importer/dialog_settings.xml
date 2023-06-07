@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="pref.psd.images_only" value="false"/>
+	<item key="pref.psd.hidden.layers.as.images" value="false"/>
+	<item key="pref.psd.strip.naming.conventions" value="false"/>
+	<item key="pref.psd.convert.camel.case" value="false"/>
+	<item key="pref.psd.new.project" value="true"/>
+	<item key="pref.psd.last.existing.project" value="coffee_app"/>
+	<item key="pref.psd.last.existing.model" value="coffee_app/coffee_app.gde"/>
+	<item key="pref.psd.textlayers.as.text" value="true"/>
+	<item key="pref.psd.import.text.wrapped" value="false"/>
+	<item key="pref.psd.import.cleanup" value="false"/>
+	<item key="DIALOG_X_ORIGIN" value="250"/>
+	<item key="DIALOG_Y_ORIGIN" value="-30"/>
+	<item key="DIALOG_WIDTH" value="525"/>
+	<item key="DIALOG_HEIGHT" value="621"/>
+	<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+</section>

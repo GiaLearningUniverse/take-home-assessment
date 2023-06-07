@@ -1,0 +1,2 @@
+D:\Job\Crank\coffee_app\source_code\coffeeMaker\x64\Debug\coffeeMaker.exe
+D:\Job\Crank\coffee_app\source_code\coffeeMaker(class)\x64\Debug\coffeeMaker.exe

@@ -1,0 +1,11 @@
+﻿  coffeeMaker.cpp
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_open referenced in function "int __cdecl receive_thread(void)" (?receive_thread@@YAHXZ)
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_close referenced in function "int __cdecl receive_thread(void)" (?receive_thread@@YAHXZ)
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_send referenced in function "void __cdecl send_thread(struct _gre_io_ *)" (?send_thread@@YAXPAU_gre_io_@@@Z)
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_receive referenced in function "int __cdecl receive_thread(void)" (?receive_thread@@YAHXZ)
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_size_buffer referenced in function "int __cdecl receive_thread(void)" (?receive_thread@@YAHXZ)
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_free_buffer referenced in function "int __cdecl receive_thread(void)" (?receive_thread@@YAHXZ)
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_serialize referenced in function "void __cdecl send_thread(struct _gre_io_ *)" (?send_thread@@YAXPAU_gre_io_@@@Z)
+coffeeMaker.obj : error LNK2019: unresolved external symbol _gre_io_unserialize referenced in function "int __cdecl receive_thread(void)" (?receive_thread@@YAHXZ)
+D:\Crank\Storyboard_Engine\8.0-stable.202304090148\windows-x86_64-opengles_2.0-obj\lib\libgreio.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Job\Crank\coffee_app\source_code\coffeeMaker\Debug\coffeeMaker.exe : fatal error LNK1120: 8 unresolved externals

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item key="pref.editor_zoom" value="1.0"/>
+	<item key="pref.default_screen_name" value="size"/>
+	<item key="pref.default_layer_name" value="lang"/>
+	<item key="anim-dropsdrop" value=""/>
+	<item key="pref.default_fps" value="30"/>
+	<item key="anim-brew" value="${app:brewing_layer.cup_fill_mask.grd_hidden}&#x0A;${app:brewing_layer.cup.grd_hidden}&#x0A;${app:brewing_layer.brewing_control.grd_hidden}&#x0A;${app:brewing_layer.cup_drops_control.grd_hidden}&#x0A;${app:brewing_layer.cup_drops_control.grd_y}&#x0A;${app:brewing_layer.fill1.y}&#x0A;${app:brewing_layer.fill2.y}&#x0A;${app:brewing_layer.fill1.grd_hidden}&#x0A;${app:brewing_layer.fill2.grd_hidden}"/>
+	<item key="sbio.is_remote" value="false"/>
+	<item key="sbio.local" value="coffeeApp_frontend"/>
+	<item key="anim-showStatus" value="${app:brewing_layer.brewing_control.grd_hidden}&#x0A;${app:brewing_layer.brewing_control.grd_x}&#x0A;${app:brewing_layer.cup.grd_x}&#x0A;${app:brewing_layer.cup_drops_control.grd_hidden}&#x0A;${app:brewing_layer.cup_fill_mask.grd_hidden}&#x0A;${app:brewing_layer.fill1.grd_hidden}&#x0A;${app:brewing_layer.fill2.grd_hidden}&#x0A;${app:brewing_layer.cup.grd_hidden}"/>
+	<item key="pref.default_control_name" value="DITEST"/>
+	<item key="screen_action.pref.fps" value="30"/>
+	<item key="anim-langopt" value="${app:start_layer.Lang.alpha1}&#x0A;${app:start_layer.Lang.alpha}&#x0A;${app:start_layer.Lang.x1}&#x0A;${app:start_layer.Lang.x}"/>
+	<item key="anim-hidelangopt" value="${app:start_layer.Eng.eng}&#x0A;${app:start_layer.Fre.fre}&#x0A;${app:start_layer.Eng.grd_x}&#x0A;${app:start_layer.Fre.grd_x}"/>
+	<item key="anim-showlangopt" value="${app:start_layer.Eng.eng}&#x0A;${app:start_layer.Fre.fre}&#x0A;${app:start_layer.Eng.grd_x}&#x0A;${app:start_layer.Fre.grd_x}"/>
+	<section name="workingsets">
+		<item key="version" value="1"/>
+		<section name="">
+			<item key="includeDesignStates" value="true"/>
+			<list key="elements">
+				<item value="start"/>
+				<item value="confirmation"/>
+				<item value="brewing"/>
+				<item value="size"/>
+			</list>
+			<section name="start">
+			</section>
+			<section name="confirmation">
+			</section>
+			<section name="brewing">
+			</section>
+			<section name="size">
+			</section>
+		</section>
+	</section>
+</section>
